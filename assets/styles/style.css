@@ -227,6 +227,21 @@ main {
   justify-content: space-evenly;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: #000000;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   ...;
 }

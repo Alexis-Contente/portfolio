@@ -131,7 +131,7 @@ main {
 
 .diplomes {
   margin: 0;
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
 }
 
 .title__diplomes {
@@ -158,9 +158,8 @@ main {
 /* COMPETENCES */
 
 .competences {
-  width: 50%;
   margin: 0;
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
 }
 
 .title__competences {
@@ -172,11 +171,23 @@ main {
 }
 
 .competences__content {
-  border-left: solid 1px #ffffff;
+  display: flex;
 }
 
-.competences p {
+.list__competences {
+  border-right: solid 1px #ffffff;
+  width: 50%;
+  list-style: none;
+  margin: 0;
+  padding: 20px 40px;
   text-align: center;
+  font-size: 25px;
+}
+
+.icones__competences {
+  width: 50%;
+  padding: 20px 40px;
+  display: flex;
 }
 
 @media (min-width: 576px) {

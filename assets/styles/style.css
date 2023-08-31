@@ -72,7 +72,7 @@ main {
 .title__intro {
   width: 50%;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px 40px;
   font-size: 70px;
   text-align: center;
   text-transform: uppercase;
@@ -85,6 +85,45 @@ main {
   padding: 20px 40px;
   font-size: 45px;
   text-align: center;
+}
+
+/* PARCOURS */
+
+.title__parcours {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 60px 0 20px 0;
+}
+
+.photo__content {
+  width: 50%;
+  margin: 0;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo__profile {
+  filter: grayscale(100%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+.text__parcours {
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 20px 40px;
+  border-right: solid 1px #ffffff;
+}
+
+.parcours__content {
+  display: flex;
 }
 
 @media (min-width: 576px) {

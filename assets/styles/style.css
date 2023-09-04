@@ -237,6 +237,30 @@ main {
   margin: 60px 0 20px 0;
 }
 
+/* CV */
+
+.title__cv {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 60px 0 20px 0;
+}
+
+.cv p {
+  text-align: center;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+
+.cv a {
+  color: #ffffff;
+}
+
+.cv a:hover {
+  text-decoration: none;
+}
+
 /* CONTACTS */
 
 .title__contacts {

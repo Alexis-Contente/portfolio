@@ -4,8 +4,8 @@ const onglets = document.querySelectorAll(".onglet");
 // Boucle sur tous les liens et ajout d'un écouteur d'événement
 onglets.forEach((onglet) => {
   onglet.addEventListener("click", (e) => {
-    e.preventDefault(); 
-      // console.log("Le fichier JavaScript est chargé.");
+    e.preventDefault();
+    // console.log("Le fichier JavaScript est chargé.");
 
     // Récupération de l'identifiant de la section ciblée à partir de l'attribut "href" du lien
     const sectionId = onglet.getAttribute("href").substring(1);
@@ -18,4 +18,8 @@ onglets.forEach((onglet) => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   });
+});
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+  (window.location.href = "/assets/Alexis CONTENTE.pdf"), "_blank";
 });

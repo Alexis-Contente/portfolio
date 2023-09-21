@@ -229,6 +229,12 @@ main {
 
 /* PROJETS */
 
+.projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title__projets {
   text-align: center;
   font-size: 40px;
@@ -238,7 +244,7 @@ main {
 }
 
 .video-container {
-  width: 100%;
+  width: 800px;
   /* overflow: hidden;
   position: relative; */
   display: flex;
@@ -254,10 +260,12 @@ video {
   object-fit: cover;
   margin: 20px 0;
   border-radius: 10px;
+  border: 2px solid #ffffff;
+  padding: 10px;
 }
 
 .git__link {
-  width: 10%;
+  width: 30%;
   font-size: 20px;
   text-align: center;
   margin: 0;
